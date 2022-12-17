@@ -1,4 +1,5 @@
-  A MERN WhatsApp Clone
+        A MERN WhatsApp Clone
+  
   ![whatsapp](https://user-images.githubusercontent.com/72704839/208254106-c99e2ce2-e9bd-47e5-aedb-6ebc63654d28.PNG)
 
 Basically in here the main idea was to utilize MongoDb in the backend to fetch the details for the message. So this app will showcase the details to the client in the frontend
