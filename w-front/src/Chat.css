@@ -1,0 +1,80 @@
+.chat{
+    display:flex;
+    flex-direction: column;
+    flex:0.65;
+}
+.chat__header{
+    display:flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom:1px solid black;
+}
+.chat_headerInfo{
+    padding-left:50px;
+    flex:1;
+}
+.chat_headerInfo > h3{
+    font-size: x-large;
+    font-weight:500;
+}
+
+.chat_headerInfo > p{
+    font-size: small;
+    color:grey
+}
+.chat__body{
+    flex:1;
+    background-image: urL("https://imgs.search.brave.com/xtEmKbdaPqNTw4Usq8vbDjg596z5Zqs1k1lewy9IdPE/rs:fit:736:1200:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vNzM2/eC85NC82NS9kMy85/NDY1ZDM5Y2JkY2Vl/NzE3YWE2MDYyYmMx/Y2MxNDRkOC5qcGc_/Yj10");
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding:30px;
+    overflow:scroll;
+}
+.chat__message{
+    position:relative;
+    font-size:16px;
+    padding: 10px;
+    width:fit-content;
+    border-radius:10px;
+    background-color:rgba(255, 255, 255, 0.5);
+}
+.chat__reciever{
+    margin-left: auto;
+    background-color: aqua;
+}
+.chat__timestamp{
+    margin-left: 10px;
+    font-size:xx-small;
+}
+.chat__name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:62px;
+}
+.chat_footer{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height:10vh;
+
+}
+.chat_contain > input{
+    display: flex;
+    border:none;
+    width:50vw;
+    height:3vh;
+    border-radius: 10px;
+    border: 1px solid blue;
+    outline-width: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-left:10px;
+    
+}
+.chat_contain > button{
+    display: none;
+}
+.chat_footer > MuiSvgIcon-root{
+    padding: 10px;
+    color:gray;
+}
